@@ -1,0 +1,32 @@
+int wain (int x, int n) {
+    int result = 0;
+    int y = 0;
+    if(n >= 0){
+      if(n != 0){
+       if(n != 1){
+           y = y + 1;
+           while (n > 1) {
+             if (n % 2==0) {
+               x = x * x;
+               n = n / 2;
+             }  
+             else {
+               y=x*y;
+               x=x*x;
+               n = (n-1)/2;
+               result= x*y;
+             }
+           }
+       }
+       else{
+         result = x;
+       }
+     }
+     else{
+      result = 1;
+     }
+  }
+  else{}
+  return result;
+}
+

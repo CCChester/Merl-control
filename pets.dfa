@@ -1,0 +1,35 @@
+4
+cat
+dog
+iguana
+mouse
+5
+start
+havecat
+havedog
+haveiguana
+havemouse
+start
+1
+havemouse
+20
+start cat havecat
+havecat cat havecat
+havecat iguana havecat
+havecat mouse havecat
+havecat dog havedog
+havedog iguana haveiguana
+haveiguana mouse havemouse
+havemouse cat havemouse
+havemouse dog havemouse
+havemouse iguana havemouse
+havemouse mouse havemouse
+start dog start
+start mouse start
+start iguana start
+havedog dog havedog
+havedog cat havedog
+havedog mouse havedog
+haveiguana cat haveiguana
+haveiguana dog haveiguana
+haveiguana iguana haveiguana 
